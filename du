@@ -1,0 +1,4 @@
+const du = require('du')
+
+let size = await du('/home/rvagg/.npm/')
+console.log(`The size of /home/rvagg/.npm/ is: ${size} bytes`)
